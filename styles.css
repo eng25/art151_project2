@@ -1,0 +1,46 @@
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(25, 25, 25);
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Roboto', sans-serif;
+}
+
+#time {
+  float: right;
+}
+
+.container {
+  width: 800px;
+  max-width: 80%;
+  padding: 10px;
+  color: white;
+}
+
+.btn-grid {
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.btn {
+  background-color: orange;
+  border: none;
+  padding: 5px 10px;
+  color: white;
+  outline: none;
+  height: 50px;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background-color: plum;
+}
