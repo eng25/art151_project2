@@ -17,7 +17,7 @@ var interval = setInterval(function(){
   time--;
   if (time <= 0){
     document.getElementById('time').innerHTML='Done';
-    if (curTextNode < 100){
+    if (curTextNode < 100 && curTextNode > 0){
       showTextNode(100);
     }
   }
