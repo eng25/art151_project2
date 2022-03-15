@@ -1,3 +1,5 @@
+window.confirm("Press Ok to begin");
+
 const textElement = document.getElementById('text')
 const optionButtonsElement = document.getElementById('option-buttons')
 
@@ -13,7 +15,7 @@ function startGame() {
 }
 
 var interval = setInterval(function(){
-  document.getElementById('time').innerHTML=time + ' minutes remaining';
+  document.getElementById('time').innerHTML=time;
   time--;
   if (time <= 0){
     document.getElementById('time').innerHTML='Done';
@@ -207,7 +209,7 @@ const textNodes = [
         addGrade: 0
       },
       {
-        text: 'Make sure you did not miss anything, reread the specifications carefully.',
+        text: 'Make sure you did not miss anything, take another 10 minutes to reread the specifications carefully.',
         nextText: 7,
         addGrade: 0
       },
@@ -385,7 +387,7 @@ const textNodes = [
         addGrade: 0
       },
       {
-        text: 'Afterward',
+        text: 'Afterword',
         nextText: -1,
         addGrade: 0
       },
