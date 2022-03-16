@@ -3,13 +3,13 @@ window.confirm("Press Ok to begin");
 const textElement = document.getElementById('text')
 const optionButtonsElement = document.getElementById('option-buttons')
 
-let time = 30;
+let time = 60;
 let grade = 0;
 let gradeLetter = '';
 var curTextNode;
 
 function startGame() {
-  time = 30;
+  time = 60;
   grade = 0;
   showTextNode(1)
 }
@@ -110,7 +110,7 @@ function selectOption(option) {
 const textNodes = [
   {
     id: 1,
-    text: 'You wake up to hear the blaring sound of your alarm.\nYou realize you have a paper due in 30 minutes',
+    text: 'You wake up to hear the blaring sound of your alarm.\nYou realize you have a paper due in 1 hour',
     options: 
     [
       {

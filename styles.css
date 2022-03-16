@@ -72,9 +72,19 @@ body {
   color: white;
   outline: none;
   height: 100%;
+  width: 100%;
   font-family: 'Yuji Syuku', serif;
   font-size: 18px;
 }
+
+.btn:nth-child(odd) {
+  text-align: right;
+}
+
+.btn:nth-child(even) {
+  text-align: left;
+}
+
 
 .btn:hover {
   background-color: plum;
