@@ -307,17 +307,17 @@ const textNodes = [
     options: 
     [
       {
-        text: '3',
+        text: '3, short and sweet, will only take 15 minutes to write',
         nextText: 12,
         addGrade: 1
       },
       {
-        text: '5',
+        text: '5, will take 30 minutes to write out this monstrosity of information',
         nextText: 12,
         addGrade: 0
       },
       {
-        text: '1',
+        text: '1-ish, it is basically just a paragraph, but it will only take 5 minutes and at this point something is better than nothing',
         nextText: 12,
         addGrade: -2
       },
