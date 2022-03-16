@@ -92,7 +92,15 @@ function selectOption(option) {
   if (nextTextNodeId === 7) {
     time -= 10;
   }
-
+  if (option.text === '3, short and sweet, will only take 15 minutes to write') {
+    time -= 15;
+  }
+  if (option.text === '5, will take 30 minutes to write out this monstrosity of information') {
+    time -= 30;
+  }
+  if (option.text === '1-ish, it is basically just a paragraph, but it will only take 5 minutes and at this point something is better than nothing') {
+    time -= 5;
+  }
   // Adjust grade variable
   const gradeDiff = option.addGrade;
   grade += gradeDiff;
@@ -255,17 +263,17 @@ const textNodes = [
     options: 
     [
       {
-        text: 'You make sure to include your first name, last name,  and the date in month day year format, and the weather in France, just in case the Professor was curious about it.',
+        text: 'You make sure to include your first name, last name,  and the date in day month year format, and the weather in France, just in case the Professor was curious about it.',
         nextText: 10,
         addGrade: -1
       },
       {
-        text: 'You make sure to include your first name and last name',
+        text: 'You make sure to include your first name and last name, and the date in month day year format.',
         nextText: 10,
         addGrade: 0
       },
       {
-        text: 'You make sure to include your first name, last name,  and the date in month day year format.',
+        text: 'You make sure to include your first name, last name, and the date in day month year format.',
         nextText: 10,
         addGrade: 1
       }
@@ -309,7 +317,7 @@ const textNodes = [
         addGrade: 0
       },
       {
-        text: '1-ish, its basically just a paragraph if you are being honest',
+        text: '1',
         nextText: 12,
         addGrade: -2
       },

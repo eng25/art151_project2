@@ -88,4 +88,5 @@ body {
 
 .btn:hover {
   background-color: plum;
+  text-align: center;
 }
