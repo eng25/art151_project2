@@ -118,7 +118,7 @@ function selectOption(option) {
 const textNodes = [
   {
     id: 1,
-    text: 'You wake up to hear the blaring sound of your alarm.\nYou realize you have a paper due in 1 hour',
+    text: 'You wake up to hear the blaring sound of your alarm.\nYou realize you have a paper due in 1 hour.',
     options: 
     [
       {
@@ -303,7 +303,7 @@ const textNodes = [
   },
   {
     id: 11,
-    text: 'How many pages do you write',
+    text: 'How many pages do you write?',
     options: 
     [
       {
@@ -325,7 +325,7 @@ const textNodes = [
   },
   {
     id: 12,
-    text: 'What is the last sentence of your paper',
+    text: 'What is the last sentence of your paper?',
     options: 
     [
       {
