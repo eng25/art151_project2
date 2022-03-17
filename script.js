@@ -1,4 +1,4 @@
-window.confirm("Welcome to Procrastination Quest. Press Ok to begin your quest.");
+window.alert("Welcome to Procrastination Quest. Press Ok to begin your quest.");
 
 const textElement = document.getElementById('text')
 const optionButtonsElement = document.getElementById('option-buttons')
